@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(135, 146, 150);
+  background-image: url("../images/background.jpg");
+
+}
+
+#profilePic {
+  border: 10px solid black;
+  border-radius: 5vh;
+}
+
+h1 {
+  border: 10px;
+  background-color: rgb(87, 123, 133);
+  font-size: 3vh;
+  font-family: 'Courier New', Courier, monospace;
+  width: auto;
+}
+
+header p {
+  border: 10px;
+  background-color: rgb(87, 123, 133);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2vh;
+  width: 80%;
+}
+
+nav {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 5px;
+  margin: auto;
+  font-size: 3vh;
+}
+nav ul {
+  background-color: rgb(87, 123, 133);
+  justify-content: space-evenly;
+  display: flex;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+
+section {
+  text-align: center;
+  border-spacing: flex;
+}
+
+
+#mainLabel {
+  background-color: rgb(87, 123, 133);
+  display: block;
+  text-align: center;
+}
+
+
+
+.mainApp img {
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  border: 10px solid black;
+}
+
+/* #mainLabel {
+  text-align: center;
+} */
+
+.otherApp {
+  display: flex;
+  flex: 1 0 300px;
+  height: auto;
+  justify-content: space-evenly;
+  list-style-type: none;
+
+}
+
+.otherApp img {
+  flex-direction: row;
+  max-width: 200px;
+  min-height: auto;
+  border: 5px solid black;
+  justify-content: space-evenly;
+  border-radius: 50%;
+  margin: 50px;
+}
+
+label {
+  background-color: rgb(87, 123, 133);
+  display: block;
+  font-weight: bold;
+  /* text-align: center; */
+  justify-content: space-evenly;
+  display: flex;
+  font-size: 3vh;
+  margin-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 2vh;
+  background-color: rgb(87, 123, 133)
+}
+
+@media screen and (max-width: 768px) {
+  .otherApp img,
+  label {
+    flex-direction: column;
+    max-width: 100px;
+    font-size: 1vh;
+  }
+}
